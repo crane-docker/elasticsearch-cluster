@@ -1,0 +1,10 @@
+network.host: 0.0.0.0
+cluster.name: elasticsearch-crane
+path.data: /usr/share/elasticsearch/data/
+transport.tcp.port: 9302
+network.publish_host: 172.17.0.1
+discovery.zen.ping.unicast.hosts: ["172.17.0.1:9300","172.17.0.1:9301","172.17.0.1:9302"]
+http.port: 9202
+script.inline: on
+script.indexed: on
+scirpt.file: on
