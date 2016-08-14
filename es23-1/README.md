@@ -9,4 +9,4 @@ docker run -d -v {host_data_path_for_cluster}:/usr/share/elasticsearch/data/ -p 
 http://localhost:9200/_plugin/head
 
 ## Attention 
-If built with Dockerfile, make sure to download the folder 'config' to Dockerfile path
+If built with Dockerfile, make sure to download the folder 'config' to Dockerfile path.
